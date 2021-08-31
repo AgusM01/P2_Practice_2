@@ -37,7 +37,6 @@ def pow_2_sum():
     n2 = int(input("Enter the second number: ")) 
     p = 0
     i = n1
-    k = 0
     while i != n2:
         if is_power_of_two(i):
             p = i + p
